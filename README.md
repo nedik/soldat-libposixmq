@@ -1,5 +1,6 @@
 # soldat-libposixmq
-This is a simple library that exposes POSIX Message Queue functions for soldatserver. [Check usage of POSIX Message Queues here](https://man7.org/linux/man-pages/man7/mq_overview.7.html).
+This is a simple library that exposes POSIX Message Queue functions for soldatserver. [Check overview of POSIX Message Queues here](https://man7.org/linux/man-pages/man7/mq_overview.7.html).
+The usage in soldat scriptoce is similar to the POSIX Message Queue. For details see the `include/libposixmq.pas`.
 
 Since POSIX IPC is not implemented on Windows, the library will only work on Unix-like operating systems like Linux.
 
