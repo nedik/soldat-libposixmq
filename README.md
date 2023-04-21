@@ -8,6 +8,7 @@ Since POSIX IPC is not implemented on Windows, the library will only work on Uni
 - g++
 - cmake
 - make
+
 TODO
 
 ## Compiling
@@ -35,9 +36,9 @@ make
 ## Example
 ### Requirements
 To run python script, following system packages are needed:
-	- python3.8 (or later)
-	- python3.8-venv (or later)
-	- pip3
+- python3.8 (or later)
+- python3.8-venv (or later)
+- pip3
 
 ### Running
 After doing [Preparation](#preparation), copy `example/scripts/` to soldatserver's `scripts/`.
