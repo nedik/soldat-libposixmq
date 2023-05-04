@@ -5,11 +5,13 @@ The usage in soldat scriptoce is similar to the POSIX Message Queue. For details
 Since POSIX IPC is not implemented on Windows, the library will only work on Unix-like operating systems like Linux.
 
 ## Requirements
+- gcc
 - g++
 - cmake
 - make
-
-TODO
+- build-essential
+- gcc-multilib
+- g++-multilib
 
 ## Compiling
 ```
@@ -38,6 +40,7 @@ make
 To run python script, following system packages are needed:
 - python3.8 (or later)
 - python3.8-venv (or later)
+- python3-dev
 - pip3
 
 ### Running
